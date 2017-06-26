@@ -10,15 +10,27 @@
 
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/css/bootstrap.min.css" integrity="sha384-rwoIResjU2yc3z8GV/NPeZWAv56rSmLldC3R/AZzGRnGxQQKnKkoFVhFQhNUwEyJ" crossorigin="anonymous">
 
+    <style type="text/css">
+
+        body {
+            position: relative;
+        }
+    
+    </style>
+
   </head>
 
-  <body>
+  <body data-spy="scroll" data-target="#navbar-example">
 
-    <nav class="nav">
-        <a class="nav-link active" href="#">Active</a>
-        <a class="nav-link" href="#">Link</a>
-        <a class="nav-link" href="#">Link</a>
-        <a class="nav-link disabled" href="#">Disabled</a>
+    <nav class="nav" id="navbar-example">
+
+        <ul class="nav nav-tabs" role="tablist">
+            <li><a class="nav-link active" href="#">Active</a></li>
+            <li><a class="nav-link" href="#">Link</a></li>
+            <li><a class="nav-link" href="#">Link</a></li>
+            <li><a class="nav-link" href="#">Disabled</a></li>
+        </ul>
+
     </nav>
 
     <script src="https://code.jquery.com/jquery-3.1.1.slim.min.js" integrity="sha384-A7FZj7v+d/sdmMqp/nOQwliLvUsJfDHW+k9Omg/a/EheAdgtzNs3hpfag6Ed950n" crossorigin="anonymous"></script>
